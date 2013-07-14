@@ -1,1 +1,0 @@
-1. I haven't finished the process of send mail after register.
