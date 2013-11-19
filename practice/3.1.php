@@ -42,4 +42,8 @@ while($element = each($prices)) {
 	echo $element['value'];
 	echo "<br />";
 }
+
+while(list($product, $price) = each($prices)) {
+	echo "$product 3-3 $price<br />";
+}
 ?>
