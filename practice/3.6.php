@@ -1,17 +1,20 @@
 <?php
 	
+	/* Print out one dimension array. */
 	function printOneDimensionArray($array){
 		foreach($array as $elem) {
 			echo $elem .'<br />';
 		}
 	}
 
+	/* Print out two dimension array. */
 	function printTwoDimensionArray($array) {
 		foreach($array as $key => $value){
 			echo $key .'=>' .$value .'<br />';
 		}
 	}
 
+	/* Using fixed format to print out the titles. */
 	function printTitles($format, $content) {
 		echo '<' .$format .'>' .$content .'</' .$format .'>';
 	}
