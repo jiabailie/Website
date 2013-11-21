@@ -1,7 +1,7 @@
 <?php
-	echo "<h1>multi-dimensional array practice</h1><br />";
+	echo "<h1>multi-dimensional array practice</h1>";
 
-	echo "<h2>Practice 1</h2><br />";
+	echo "<h2>Practice 1</h2>";
 	$products1 = array(	
 		array( 'TIR', 'Tires', 100),
 		array( 'OIL', 'Oil', 10),
@@ -15,7 +15,7 @@
 		echo '<br />';
 	}
 
-	echo "<h2>Practice 2</h2><br />";
+	echo "<h2>Practice 2</h2>";
 	$products2 = array(
 		array(
 			'Code' => 'TIR',
@@ -39,7 +39,7 @@
 
 	echo '<br />';
 
-	echo "<h2>Practice 2 using while</h2><br />";
+	echo "<h2>Practice 2 using while</h2>";
 	for($row = 0; $row < 3; $row++){
 		while(list($key, $value) = each($products2[$row])){
 			echo "|$value";
@@ -48,7 +48,7 @@
 	}
 
 	echo '<br />';
-	echo "<h2>Practice 3</h2><br />";
+	echo "<h2>Practice 3</h2>";
 	
 	$categories = array(
 		array(	
